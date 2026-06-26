@@ -2,8 +2,6 @@ binder_use(miuicamera_app)
 binder_call(miuicamera_app, hal_camera_default)
 binder_call(miuicamera_app, hal_camerapostproc_xiaomi)
 
-type miuicamera_app, domain, coredomain;
-
 app_domain(miuicamera_app)
 net_domain(miuicamera_app)
 
